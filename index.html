@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <script src="./src/js/main.js" defer></script>
+    <script src="./src/js/bootstrap.min.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-gradient">
+        <div class="container-fluid">
+          <img src="src/img/text.png" />
+          <select id="select" class="form-select form-select-sm w-25">
+            <option value="All" selected>All</option>
+          </select>
+          <div
+            class="d-flex justify-content-center align-items-center position-relative"
+          >
+            <input
+              id="search"
+              class="form-control form-control-sm"
+              type="text"
+              placeholder="Search ..."
+            />
+            <i
+              width="16"
+              height="16"
+              class="i-search text-secondary position-absolute end-0 me-1"
+            >
+            </i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="p-header"></div>
+      <div id="amount"></div>
+      <div id="content__container" class="row"></div>
+    </main>
+
+    <footer class="border-top pt-2 w-75 mx-auto">
+      <p class="text-center">Mohammad Ali Rajaee</p>
+    </footer>
+
+  </body>
+</html>

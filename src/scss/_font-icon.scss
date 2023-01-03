@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "fontIcon";
+  src: url("/src/font-icon/fontIcon.woff") format("woff"),
+    url("/src/font-icon/fontIcon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"],
+[class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "fontIcon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-down:before {
+  content: "\e900";
+}
+.i-search:before {
+  content: "\e905";
+}
